@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drawing App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 style="color:chartreuse">Drawing App</h1>
+   <div class="container">
+       
+       <input type="color" list id="color">
+       <div id="stroke">
+           <div id="circle"></div>
+       </div>
+       <div id="slider"></div>
+   </div>
+   <div class="artboard" >
+       <canvas id="paint" width="500px" height="400px"></canvas>
+   </div>
+   
+   <div class="btn-container">
+        <span id="erase" class="fa fa-eraser"></span>
+        <span id="save" class="fa fa-save"></span>
+        <span id="reset" class="fa fa-refresh"></span>
+   </div>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
